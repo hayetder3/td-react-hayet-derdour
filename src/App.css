@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,60 @@
   to {
     transform: rotate(360deg);
   }
+} */
+/* App.css */
+
+.App {
+  text-align: center;
+  background-color: rgb(251, 205, 212); /* Fond rose */
+  min-height: 100vh; /* Hauteur minimale de la vue */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.TaskForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Styles pour agrandir TaskForm */
+.TaskForm-input {
+  width: 400px; /* Largeur */
+  padding: 10px; /* Rembourrage */
+  border-radius: 50px;
+
+  font-size: 16px; /* Taille de la police */
+}
+
+.TaskForm-button {
+  padding: 10px 20px; /* Rembourrage haut/bas et gauche/droite */
+  font-size: 16px; /* Taille de la police */
+  background-color: rgb(205, 205, 255);
+  border-radius: 50px;
+}
+
+/* Styles pour agrandir TaskList */
+.TaskList {
+  width: 500px; /* Largeur */
+  padding: 10px; /* Rembourrage */
+  background-color: rgb(189, 239, 255); /* Fond blanc */
+  border-radius: 50px; /* Bordure arrondie */
+  box-shadow: 0 0 10px rgba(214, 179, 210, 0.1); /* Ombre */
+}
+
+.TaskList-item {
+  margin-bottom: 10px; /* Marge en bas */
+  font-size: 18px; /* Taille de la police */
+  
+}
+
+/* Styles pour agrandir les boutons de filtre */
+.FilterButton {
+  margin: 15px; /* Marge */
+  padding: 20px 40px; /* Rembourrage haut/bas et gauche/droite */
+  font-size: 16px; /* Taille de la police */
+  border-radius: 50px;
+  background-color: rgb(205, 205, 255);
 }
